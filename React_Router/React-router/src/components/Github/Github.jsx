@@ -4,6 +4,7 @@ import {useLoaderData} from "react-router-dom";
 
 export default function Github() {
     const name =useLoaderData()
+    console.log(name)
     // const { username } = useParams();
     // const [name , setName] = useState("");
     // useEffect(()=>{
@@ -15,7 +16,7 @@ export default function Github() {
 
     return (
 
-    <div className="text-center m-4 bg-gray-700 text-white text-3xl p-5">GitHub Followes: {name.followers}</div>
+    <div className="text-center m-4 bg-gray-700 text-white text-3xl p-5">GitHub Followes: </div>
     )
 
 }
