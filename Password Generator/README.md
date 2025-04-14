@@ -1,12 +1,58 @@
-# React + Vite
+# 🔐 Random Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and powerful **Random Password Generator** built with **React.js**.  
+Customize your password with ease—define the length and choose whether to include **numbers** and/or **characters**!
 
-Currently, two official plugins are available:
+![React Badge](https://img.shields.io/badge/React-JS-61DAFB?style=for-the-badge&logo=react)
+![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red?style=for-the-badge)
+![License](https://img.shields.io/github/license/KhanjarSingh/random-password-generator?style=for-the-badge)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Generate secure, random passwords instantly  
+- 🔢 Option to include **numbers**
+- 🔤 Option to include **alphabets/characters**
+- 📏 Define **password length**
+- ⚡ Real-time password preview
+- 💡 Built with **React.js** for fast and interactive UI
+
+---
+
+## 🚀 Demo
+
+[Password Generator Demo](https://randompasswordgenerator-kappa.vercel.app/)
+
+---
+
+## 🛠️ Built With
+
+- [React.js](https://reactjs.org/)
+- HTML5 & CSS3
+- JavaScript (ES6+)
+
+---
+
+## 📸 Preview
+
+![App Screenshot](https://via.placeholder.com/800x400.png?text=Password+Generator+UI+Preview)
+
+---
+
+## 🧠 How It Works
+
+1. Choose your desired **password length** using the input/slider.
+2. Select whether you want to include **numbers** and/or **characters**.
+3. Click the **Generate Password** button.
+4. Instantly get your random password!
+
+---
+
+## 🧰 Installation
+
+```bash
+git clone https://github.com/KhanjarSingh/random-password-generator.git
+cd random-password-generator
+npm install
+npm start
